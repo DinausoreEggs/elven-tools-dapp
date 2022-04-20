@@ -15,7 +15,7 @@ export const ActionButton: FC<ActionButtonProps> = ({
   ...props
 }) => {
   const handleClick = useCallback(() => {
-    if (!disabled) {
+    if (!disabled) { 
       onClick?.();
     }
   }, [disabled, onClick]);
